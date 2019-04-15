@@ -22,7 +22,7 @@ public class ParetnNode : Spatial
         DeltaTime += delta;
         CheckTime();
         uintList = new List<uint>();       //reinitialize list before requesting it
-        EmitSignal(nameof(RequestList));
+        EmitSignal(nameof(RequestList));   //comment this out when control testing
     }
 
     //cannot connect to child node until it is ready
