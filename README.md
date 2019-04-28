@@ -3,7 +3,7 @@ Testing efficiency of  using signals to pass list elements incrementally.
 This repo contains code for testing a C# signal emitter in a foreach loop in the godot engine.
 Godot does not currently fully support lists and it is not currently possible to get or set lists that are on different nodes.
 One solution to this issue is to pass the elements one at time using the signal system
-The caviat to this solution is that the elements must inherit be or inherit from godot objects
+The caviat to this solution is that the elements must be or inherit from godot objects
 
 The code here is to test the efficiancy this solution.
 The parent code goes in a spatial node with a child node attached to it with the child node code. 
